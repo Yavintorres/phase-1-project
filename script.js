@@ -1,16 +1,15 @@
 console.log("running scripts")
 
-const renderCards = (infoArray) => {
+const renderCards = (dataArray) => {
     const cardContainer = document.getElementById("card-container")
-    infoArray.forEach(cardInfo => {
+    dataArray.forEach(cardInfo => {
         const img = document.createElement("img")
-        img.src = cardInfo.img
+        img.src = cardInfo.image
 
         cardContainer.appendChild(img)
-       
     })
 }
 
-fetch("https://rickandmortyapi.com/api/character")
+fetch("https://bobsburgers-api.herokuapp.com/characters?")
 .then(response => response.json())
-.then(info => renderCards(info.results))
+.then(info => renderCards(info))

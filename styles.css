@@ -51,3 +51,16 @@ form input{
     font-size: 2rem;
     display: inline-block;
 }
+form ion-icon{
+    width: 9%;
+    font-size: 3rem;
+    margin: -9px;
+    color: rgb(75, 75, 75);
+}
+.search-result{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+}

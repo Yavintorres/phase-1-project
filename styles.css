@@ -29,3 +29,9 @@ section{
     max-width: 1200px;
     margin: 0 auto;
 }
+.brand{
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}

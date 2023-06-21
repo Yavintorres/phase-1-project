@@ -96,4 +96,14 @@ form ion-icon{
     background-color: #404041;
     color: white;
     font-size: 1.4rem;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.item-data{
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 2rem;
 }

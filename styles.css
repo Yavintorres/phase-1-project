@@ -35,3 +35,11 @@ section{
     color: whitesmoke;
     margin-bottom: 30px;
 }
+form{
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+form input{
+    width: 100%;
+}
